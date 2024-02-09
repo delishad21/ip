@@ -55,6 +55,7 @@ public class Parser {
             paramsTable.put(paramLabel, paramInfo);
         }
 
+        assert !action.equals("");
 
         switch (action) {
         case "bye":
